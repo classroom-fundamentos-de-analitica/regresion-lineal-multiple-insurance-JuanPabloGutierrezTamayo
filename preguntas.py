@@ -49,7 +49,7 @@ def pregunta_02():
     # aleatorios es 12345. Use 300 patrones para la muestra de prueba.
     (X_train, X_test, y_train, y_test,) = train_test_split(
         X,
-        X,
+        y,
         test_size=300,
         random_state=12345,
     )
